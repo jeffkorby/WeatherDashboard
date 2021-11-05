@@ -23,14 +23,19 @@
                         <h3 class="is-medium">Search for a city:</h3>
                     </label>
                     <div class="control block">
-                        <input class="input" type="text" placeholder="Northville">
+                        <input class="input" id="searchCity" type="text" placeholder="Northville">
                     </div>
                     <div class="is-align-items-center">
-                        <button class="button is-normal is-link is-outlined is-rounded" type="submit">Search</button>
+                        <button class="button is-normal is-link is-outlined is-rounded"id="search-btn" type="submit">Search</button>
                     </div>    
+                </div>
+                <div class="is-flex-direction-column">
+                    <section id="current-weather" class="row"></section>
+                    <section id="future-forecast" class="row"></section>
                 </div>
             </div>
         </section>
+
 
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"
